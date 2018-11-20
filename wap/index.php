@@ -77,14 +77,14 @@ $list = $rs['msg'];
         <a class="logo pk10" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(15);' : 'info();' ?>"></a>
         <span class="gm_txt">一分彩</span>
     </div>
-	 <!-- <div class="col">
+	<div class="col">
         <a class="logo gdsf" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(7);' : 'info();' ?>"></a>
         <span class="gm_txt">广东快乐十分</span>
     </div> 
 	 <div class="col">
         <a class="logo xync" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(6);' : 'info();' ?>"></a>
         <span class="gm_txt">重庆幸运农场</span>
-    </div>   -->
+    </div> 
      <div class="col">
         <a class="logo kl8" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(8);' : 'info();' ?>"></a>
         <span class="gm_txt">北京快乐8</span>
