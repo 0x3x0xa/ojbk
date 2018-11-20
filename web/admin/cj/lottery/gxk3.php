@@ -1,0 +1,1 @@
+<?php include_once("./gxk3/gxk3_json.php");?>

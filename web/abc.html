@@ -1,0 +1,27 @@
+
+<script type="text/javascript">
+
+var l_r="18,51,43,74,22,53,34,80,16,36,27,67,54,12,65,46,11,28,62,71,1";
+
+  var list = l_r.split(",");
+        var list_n = list.slice(0, 20)
+        var list_ = sortNumber(list_n, "asc");
+        alert(list_);
+		alert(list_.slice(0, 6));
+		alert(list_.slice(6, 12));
+		alert(list_.slice(12, 18));
+        var d1 = eval(list_.slice(0, 6).join("+"));
+        var d2 = eval(list_.slice(6, 12).join("+"));
+        var d3 = eval(list_.slice(12, 18).join("+"));
+        var b1 = d1.toString().charAt(d1.toString().length - 1);
+        var b2 = d2.toString().charAt(d2.toString().length - 1);
+        var b3 = d3.toString().charAt(d3.toString().length - 1);
+
+		
+		//Êý×ÖÅÅÐò
+function sortNumber(a, ad) {
+    var f = ad != "desc" ? function (a, b) { return a - b } : function (a, b) { return b - a };
+    return a.sort(f);
+}
+
+</script>

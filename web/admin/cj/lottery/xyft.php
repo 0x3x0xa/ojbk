@@ -1,0 +1,1 @@
+<?php include_once("./xyft/xyft_json.php");?>

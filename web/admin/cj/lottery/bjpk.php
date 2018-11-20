@@ -1,0 +1,1 @@
+<?php include_once("./bjpk/bjpk10_json.php");?>

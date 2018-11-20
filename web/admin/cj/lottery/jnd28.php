@@ -1,0 +1,1 @@
+<?php include_once("./jnd28/jnd28.php");?>

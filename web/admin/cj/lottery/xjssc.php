@@ -1,0 +1,1 @@
+<?php include_once("./xjssc/xjssc_json.php");?>
