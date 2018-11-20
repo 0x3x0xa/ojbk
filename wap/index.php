@@ -57,7 +57,7 @@ $list = $rs['msg'];
     </div>
 </div>
 <div class="container-fluid games">
-	<!-- <div class="col">
+	<div class="col">
         <a class="logo pk10" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(4);' : 'info();' ?>"></a>
         <span class="gm_txt">北京赛车PK10</span>
     </div>
@@ -77,18 +77,18 @@ $list = $rs['msg'];
         <a class="logo pk10" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(15);' : 'info();' ?>"></a>
         <span class="gm_txt">一分彩</span>
     </div>
-	<div class="col">
+	<!-- <div class="col">
         <a class="logo gdsf" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(7);' : 'info();' ?>"></a>
         <span class="gm_txt">广东快乐十分</span>
     </div> 
 	 <div class="col">
         <a class="logo xync" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(6);' : 'info();' ?>"></a>
         <span class="gm_txt">重庆幸运农场</span>
-    </div> 
-     <div class="col">
+    </div>  -->
+    <!--  <div class="col">
         <a class="logo kl8" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(8);' : 'info();' ?>"></a>
         <span class="gm_txt">北京快乐8</span>
-    </div> 
+    </div>  -->
 	<div class="col">
         <a class="logo six" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(11);' : 'info();' ?>"></a>
         <span class="gm_txt">香港六合彩</span>
@@ -97,7 +97,7 @@ $list = $rs['msg'];
         <a class="logo six" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(17);' : 'info();' ?>"></a>
         <span class="gm_txt">高速六合彩</span>
     </div>
-    <div class="col">
+  <!--   <div class="col">
         <a class="logo fc3d" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(9);' : 'info();' ?>"></a>
         <span class="gm_txt">福彩3D</span>
     </div>
