@@ -97,14 +97,14 @@ $list = $rs['msg'];
         <a class="logo six" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(17);' : 'info();' ?>"></a>
         <span class="gm_txt">高速六合彩</span>
     </div>
-  <!--   <div class="col">
+    <div class="col">
         <a class="logo fc3d" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(9);' : 'info();' ?>"></a>
         <span class="gm_txt">福彩3D</span>
     </div>
     <div class="col">
         <a class="logo pl3" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(10);' : 'info();' ?>"></a>
         <span class="gm_txt">排列三</span>
-    </div>  -->
+    </div> 
 	<!-- <div class="col">
 		<a class="logo ty" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(14);' : 'info();' ?>"></a>
         <span class="gm_txt">体育赛事</span>
