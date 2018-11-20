@@ -57,7 +57,7 @@ $list = $rs['msg'];
     </div>
 </div>
 <div class="container-fluid games">
-	<div class="col">
+	<!-- <div class="col">
         <a class="logo pk10" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(4);' : 'info();' ?>"></a>
         <span class="gm_txt">北京赛车PK10</span>
     </div>
@@ -104,7 +104,7 @@ $list = $rs['msg'];
     <div class="col">
         <a class="logo pl3" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(10);' : 'info();' ?>"></a>
         <span class="gm_txt">排列三</span>
-    </div> 
+    </div>  -->
 	<!-- <div class="col">
 		<a class="logo ty" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(14);' : 'info();' ?>"></a>
         <span class="gm_txt">体育赛事</span>
