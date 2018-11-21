@@ -49,7 +49,7 @@ switch($type) {
 }
 $t_day = date('Y-m-d', $lottery_time);
 ?>
-<iframe src="http://kj.kai861.com/view/video/GDklsf/index.html?10005?1682013.cn" width="100%" scrolling="no" height="100%" frameborder="0" style="width: 375px; height: 300px;"></iframe>
+<iframe src="http://kj.kai861.com/view/video/GDklsf/index.html?10005?1682013.cn" width="100%" scrolling="no" height="100%" frameborder="0" style="width: 450px; height: 300px;"></iframe>
 <!DOCTYPE html>
 <html>
 <head>
