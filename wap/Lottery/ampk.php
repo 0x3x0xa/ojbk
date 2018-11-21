@@ -48,7 +48,7 @@ $w_tit = array('冠军', '亚军', '第三名', '第四名', '第五名', '第�
     <div class="container-fluid gm_main">
         <div class="head">
             <a class="f_l" href="#u_nav">导航</a>
-            <span>澳门PK</span>
+            <span>极速赛车</span>
             <a class="f_r" href="#type">类型</a>
         </div>
         <?php include_once('u_nav.php') ?>

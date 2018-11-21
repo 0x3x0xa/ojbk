@@ -1,6 +1,7 @@
 <div class="tb_tit">
     <select id="gm_type">
 		<option value="/Lottery/list_Pk10.php"<?=$g_t == 3 ? ' selected="selected"' : ''?>>北京赛车PK拾</option>
+        <option value="/Lottery/list_Pk10.php?type=16"<?=$g_t == 16 ? ' selected="selected"' : ''?>>极速赛车</option> 
         <option value="/Lottery/list_Pk10.php?type=8"<?=$g_t == 4 ? ' selected="selected"' : ''?>>幸运飞艇</option>
         <option value="/Lottery/ssc_list.php"<?=$g_t == 0 ? ' selected="selected"' : ''?>>重庆时时彩</option>
          <option value="/Lottery/ssc_list.php?type=14"<?=$g_t == 2 ? ' selected="selected"' : ''?>>新疆时时彩</option>
@@ -13,7 +14,7 @@
         <option value="/Lottery/list_3D.php"<?=$g_t == 8 ? ' selected="selected"' : ''?>>福彩3D</option>
         <option value="/Lottery/list_3D.php?type=10"<?=$g_t == 9 ? ' selected="selected"' : ''?>>排列三</option>
         <!-- <option value="/Lottery/ssc_list.php?type=7"<?=$g_t == 1 ? ' selected="selected"' : ''?>>天津时时彩</option> -->
-        <!-- <option value="/Lottery/list_Pk10.php?type=16"<?=$g_t == 16 ? ' selected="selected"' : ''?>>澳门PK</option> -->
+        
         <!-- <option value="/Lottery/list_xy28.php"<?=$g_t == 11 ? ' selected="selected"' : ''?>>PC蛋蛋</option>
         <option value="/Lottery/list_xy28.php?type=13"<?=$g_t == 12 ? ' selected="selected"' : ''?>>加拿大28</option> -->
     </select>

@@ -1,6 +1,7 @@
 <table cellspacing="0" cellpadding="0" border="0" class="table table-bordered">
     <tr><td class="tit">全部彩种</td></tr>
 	<tr><td><a href="/Lottery/Pk10.php">北京赛车PK拾</a> <i class="icon-angle-right"></i></td></tr>
+    <tr><td><a href="/Lottery/ampk.php">极速赛车</a> <i class="icon-angle-right"></i></td></tr> 
     <tr><td><a href="/Lottery/Xyft.php">幸运飞艇</a> <i class="icon-angle-right"></i></td></tr>
     <tr><td><a href="/Lottery/Cqssc.php">重庆时时彩</a> <i class="icon-angle-right"></i></td></tr>
     <tr><td><a href="/Lottery/Xjssc.php">新疆时时彩</a> <i class="icon-angle-right"></i></td></tr>
@@ -17,5 +18,5 @@
 	<!--<tr><td><a href="javascript:void(0);" onclick="alert('即将上线敬请期待！');">真人娱乐</a> <i class="icon-angle-right"></i></td></tr>-->
     <!-- <tr><td><a href="/mysports.php">体育赛事</a> <i class="icon-angle-right"></i></td></tr> -->
     <!--<tr><td><a href="/Lottery/Jxssc.php">天津时时彩</a> <i class="icon-angle-right"></i></td></tr> -->
-    <!-- <tr><td><a href="/Lottery/ampk.php">澳门PK</a> <i class="icon-angle-right"></i></td></tr> -->
+    
 </table>

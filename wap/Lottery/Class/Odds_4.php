@@ -20,6 +20,7 @@ $query		= $mysqli->query($sql);
 $qs		= $query->fetch_array();
 $fixno = $web_site['pk10_knum']; //2013-06-30最后一期
 $daynum = floor(($lottery_time-strtotime($web_site['pk10_ktime']." 00:00:00"))/3600/24);
+
 $lastno = ($daynum-1)*179 + $fixno;
 if($qs){
 	$qishu		= $lastno + $qs['qishu'];

@@ -12,11 +12,11 @@ $pk10 = array('单','双','大','小','龙','虎');
 $pk10_a = array('龙','虎','冠亚和大','冠亚和小','冠亚和单','冠亚和双');
 
 //用户输赢
-$sql = "select round(SUM(money), 2) as yk from c_bet where type='澳门PK' and uid='$uid'";
+$sql = "select round(SUM(money), 2) as yk from c_bet where type='极速赛车' and uid='$uid'";
 $query = $mysqli->query($sql);
 $rs = $query->fetch_assoc();
 $z_money = $rs['yk'];
-$sql = "select round(SUM(win), 2) as yk from c_bet where type='澳门PK' and uid='$uid' and win >= 0";
+$sql = "select round(SUM(win), 2) as yk from c_bet where type='极速赛车' and uid='$uid' and win >= 0";
 $query = $mysqli->query($sql);
 $rs = $query->fetch_assoc();
 $z_win = $rs['yk'];

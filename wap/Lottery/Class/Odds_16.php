@@ -1,8 +1,8 @@
 <?php
 header('Content-Type:text/html; charset=utf-8');
 include ("../../include/mysqli.php");
-include ("../include/lottery_time.php");
-include ("../../../cache/website.php");
+include ("../../Lottery/include/lottery_time.php");
+include ("../../cache/website.php");
 //开始读取赔率
 $sql		= "select * from c_odds_16 order by id asc";
 $query		= $mysqli->query($sql);
@@ -14,12 +14,15 @@ while ($odds = $query->fetch_array()) {
 		}
 	$s++;
 }
+
+
 //开始读取期数
 $sql		= "select * from c_opentime_16 where kaipan<='".date("H:i:s",$lottery_time)."' and kaijiang>='".date("H:i:s",$lottery_time)."' order by id asc";
 $query		= $mysqli->query($sql);
 $qs		= $query->fetch_array();
 $fixno = $web_site['ampk_knum']; //2013-06-30最后一期
 $daynum = floor(($lottery_time-strtotime($web_site['ampk_ktime']." 00:00:00"))/3600/24);
+
 $lastno = ($daynum-1)*179 + $fixno;
 
 if($qs){
