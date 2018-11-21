@@ -10,7 +10,7 @@
 require_once("../mysqli.php");
 require_once ("curl_http.php");
 $now = date('Y-m-d H:i:s');
-$src = 'http://a.apiplus.net/newly.do?token=t4808126369c757c2k&code=bjpk10&rows=1&format=json';
+$src = 'http://f.apiplus.net/fc3d-1.json';
 //防止GET本地缓存，增加随机数
 $src .= (strpos($src,'?')>0 ? '&':'?').'_='.time();
 $html = file_get_contents($src);
@@ -20,9 +20,10 @@ if (isset($json['rows'])){
 	foreach($json['data'] as $r){
 		// $qishu = preg_replace("/^(\d{8})(\d{3})$/","\\1-\\2",$r['expect']);
 		$qishu =$r['expect'];
+		// $qishu = substr($r['expect'],(strlen($r['expect'])-5));
 		$opencode = $r['opencode'];
 		$opentime = $r['opentime'];
-		// echo "开奖期号：{$qishu}<br/>";
+		echo "开奖期号：{$qishu}<br/>";
 		// echo "开奖号码：{$opencode}<br/>";
 		echo "开奖时间：{$opentime}<br/>";
 	}

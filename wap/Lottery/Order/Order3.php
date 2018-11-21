@@ -26,6 +26,7 @@ if ($_REQUEST['type'] == 3 || $_REQUEST['type'] == 11) {
     //获取期数
 	$qishu = lottery_qishu_3($_REQUEST['type']);
     $qh = $datas['qi_num'];
+ 
     if($qishu == -1 || $qh != $qishu) {
         echo json_encode(array('code' => 2, 'info' => '已经封盘，禁止下注！'));
         exit;

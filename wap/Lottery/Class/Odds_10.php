@@ -22,8 +22,8 @@ if($qs){
 	if(date('H',$lottery_time)>20){$day=strtotime('+1 day',$lottery_time);}
 	else $day=$lottery_time;
 	$l_date=date("Y-m-d",$day);
-	$pk10_date = '2016-03-26';
-	$pk10_qi = 79;
+	$pk10_date = '2018-12-31';
+	$pk10_qi = 358;
 	$holidays =array("4月5日","4月6日","4月7日","5月1日","5月2日","5月3日","5月31日","6月1日","6月2日","9月6日","9月7日","9月8日");
 	$pk10_t = (strtotime($l_date)-strtotime($pk10_date))/86400;
 	$pk10_t = $pk10_t+$pk10_qi;

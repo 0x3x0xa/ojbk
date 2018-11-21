@@ -3,6 +3,7 @@ header('Content-Type:text/html; charset=utf-8');
 include ("../../include/mysqli.php");
 include ("../include/lottery_time.php");
 include ("../../cache/website.php");
+
 //开始读取赔率
 $sql		= "select * from c_odds_1 order by id asc";
 $query		= $mysqli->query($sql);

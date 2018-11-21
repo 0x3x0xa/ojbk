@@ -36,6 +36,7 @@ if($qs){
 		$kaijiang	= -1;
 	}
 }
+echo "------------------------：{$qishu}<br/>";
 $arr = array(   
     'number' => $qishu, 
 	'endtime' => $fengpan,

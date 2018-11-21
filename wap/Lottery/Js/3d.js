@@ -13,6 +13,7 @@ function digitOnly($this) {
 	}
 }
 
+
 //盘口信息
 function loadinfo(type) {
     g_type = type;

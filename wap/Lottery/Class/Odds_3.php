@@ -18,7 +18,7 @@ $sql		= "select * from c_opentime_3 where kaipan<='".date("H:i:s",$lottery_time)
 $query		= $mysqli->query($sql);
 $qs		= $query->fetch_array();
 if($qs){
-	$qishu		= date("Ymd",$lottery_time).BuLing($qs['qishu']);
+	$qishu		= date("Ymd",$lottery_time).BuLings($qs['qishu']);
 	$fengpan	= strtotime(date("Y-m-d",$lottery_time).' '.$qs['fengpan'])-$lottery_time;
 	$kaijiang	= strtotime(date("Y-m-d",$lottery_time).' '.$qs['kaijiang'])-$lottery_time;
 }else{

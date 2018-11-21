@@ -12,9 +12,10 @@ function lottery_odds($type,$ball,$h) {
 
 function lotteryk8_qishu($type) {
     global $lottery_time;
-	$fixno = '757809';  //2016-02-27最后一期
-	$web_site['kl8'] = '2016-05-06';
-	$daynum = floor(($lottery_time-strtotime($web_site['kl8']." 00:00:00"))/3600/24);
+    $web_site['kl8_ktime']	=	'2018-11-30';
+    $web_site['kl8_knum']	=	'923733';
+	$fixno = $web_site['kl8_knum'];  //2016-02-27最后一期
+	$daynum = floor(($lottery_time-strtotime($web_site['kl8_ktime']." 00:00:00"))/3600/24);
 	$lastno = ($daynum-1)*179 + $fixno - 1;
 	global $mysqli;
 	$l_time = $lottery_time;
@@ -118,8 +119,8 @@ function lottery_qishu9($type) {
 	  if(date('H',$lottery_time)>20){$day=strtotime('+1 day',$lottery_time);}
 	  else $day=$lottery_time;
 	  $l_date=date("Y-m-d",$day);
-	  $pk10_date = '2016-03-26';
-	  $pk10_qi = 79;
+	  $pk10_date = '2018-12-31';
+	  $pk10_qi = 358;
 	  $pk10_t = (strtotime($l_date)-strtotime($pk10_date))/86400;
 	  $pk10_t = $pk10_t+$pk10_qi;
 	  $pk10_t = $pk10_t > 100?$pk10_t:"0".$pk10_t;
@@ -155,7 +156,7 @@ function lottery_qishu_3($type) {
 	$query	=	$mysqli->query($sql);
 	$qs		=	$query->fetch_array();
 	if($qs){
-		return date("Ymd",$lottery_time).BuLing($qs['qishu']);
+		return date("Ymd",$lottery_time).BuLings($qs['qishu']);
 	}else{
 		$nex_qi=($type==11) ? 14 : 1;
 		$sql		= "select qishu from c_opentime_".$type." where qishu=$nex_qi";

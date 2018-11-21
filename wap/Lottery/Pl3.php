@@ -37,6 +37,7 @@ switch($type) {
 }
 $t_day = date('Y-m-d', $lottery_time);
 ?>
+<iframe src="http://kj.kai861.com/view/video/fc3DVideo/index.html?10043?1682013.cn" width="100%" scrolling="no" height="100%" frameborder="0" style="width: 375px; height: 250px;"></iframe>
 <!DOCTYPE html>
 <html>
 <head>

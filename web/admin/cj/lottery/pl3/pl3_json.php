@@ -18,11 +18,13 @@ $json = json_decode($html,true);
 
 if (isset($json['rows'])){
 	foreach($json['data'] as $r){
-		// $qishu = preg_replace("/^(\d{8})(\d{3})$/","\\1-\\2",$r['expect']);
-		$qishu =$r['expect'];
+		// $qishu = preg_replace("/^(\d{8})(\d{3})$/","\\1\\2",$r['expect']);
+		// $qishu =$r['expect'];
+		$qishu = substr($r['expect'],(strlen($r['expect'])-5));
+		// $qishu = substr($r['expect'],5);
 		$opencode = $r['opencode'];
 		$opentime = $r['opentime'];
-		// echo "开奖期号：{$qishu}<br/>";
+		echo "开奖期号：{$qishu}<br/>";
 		// echo "开奖号码：{$opencode}<br/>";
 		echo "开奖时间：{$opentime}<br/>";
 	}
