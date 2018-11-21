@@ -43,7 +43,7 @@ function preJs($qi,$codes){
 	$summoney=0;
 
 //根据期数读取未结算的注单
-$sql1		= "select * from c_bet where type='澳门PK' and js=0 and qishu=".$qi." order by addtime asc";
+$sql1		= "select * from c_bet where type='极速赛车' and js=0 and qishu=".$qi." order by addtime asc";
 $query1		= $mysqli->query($sql1);
 $sum		= $mysqli->affected_rows;
 

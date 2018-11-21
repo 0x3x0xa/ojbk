@@ -250,7 +250,7 @@ body {
         <td>开奖时间:<input type="text" class="textfield" value="<?=$web_site['kl8_ktime']?>" onClick="new Calendar(2008,2020).show(this);" size="10" maxlength="10" name="des_kl8time" id="des_kl8time" readonly/>开奖期号:<input type="text" class="textfield" value="<?=$web_site['kl8_knum']?>" size="10" name="des_kl8num" id="des_kl8num" />(例如:2013-05-30开的最后一期是569859)</td> 
       </tr>
 	   <tr> 
-        <td height="30" align="right" >  澳门PK期数校对：</td> 
+        <td height="30" align="right" >  极速赛车期数校对：</td> 
         <td>开奖时间:<input type="text" class="textfield" value="<?=$web_site['ampk_ktime']?>" onClick="new Calendar(2008,2020).show(this);" size="10" maxlength="10" name="des_ampktime" id="des_ampktime" readonly/>开奖期号:<input type="text" class="textfield" value="<?=$web_site['ampk_knum']?>" size="10" name="des_ampknum" id="des_ampknum" />(例如:2013-05-30开的最后一期是569859)</td> 
       </tr>
       <tr> 

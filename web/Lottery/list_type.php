@@ -1,7 +1,7 @@
 <table cellspacing="1" cellpadding="0" border="0" class="tb_tit">
     <tr>
 		<td<?=$g_t == 3 ? ' class="cur"' : ''?> width="6.69%" onclick="gm_open(4);">北京赛车</td>
-		<td<?=$g_t == 16 ? ' class="cur"' : ''?> width="6.69%" onclick="gm_open(16);">澳门PK</td>
+		<td<?=$g_t == 16 ? ' class="cur"' : ''?> width="6.69%" onclick="gm_open(16);">极速赛车</td>
 		<td<?=$g_t == 4 ? ' class="cur"' : ''?> width="6.69%" onclick="gm_open(5);">幸运飞艇</td>
         <td<?=$g_t == 0 ? ' class="cur"' : ''?> width="6.69%" onclick="gm_open(1);">重庆时时彩</td>
 		<td<?=$g_t == 15 ? ' class="cur"' : ''?> width="6.69%" onclick="gm_open(15);">分分彩</td>

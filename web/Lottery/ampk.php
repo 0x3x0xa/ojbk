@@ -79,7 +79,7 @@ if($cp_zg <= 0) {
     </div>
     <table cellspacing="0" cellpadding="0" border="0" class="gm_t1">
         <tr>
-            <td>澳门PK拾 <span class="sy">今天输赢：</span><span id="user_sy" class="sy_n">0.00</span>
+            <td>极速赛车 <span class="sy">今天输赢：</span><span id="user_sy" class="sy_n">0.00</span>
                 <input id="gm_mode" type="hidden" value="pk10" />
                 <input id="u_name" type="hidden" value="<?=$_SESSION['username']?>" />
                 <input id="cp_min" type="hidden" value="<?=$cp_zd?>" />

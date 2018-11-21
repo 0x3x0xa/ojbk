@@ -7,7 +7,7 @@
         <td align="center" bgcolor="#3C4D82" style="color:#FFF">
             <a href="Order.php?js=0" class="<?=$type=='重庆时时彩' ? 'ssc_curr' : 'ssc_com'?>">重庆时时彩</a>&nbsp;&nbsp;-&nbsp;&nbsp;
 			<a href="Order.php?js=0&type=分分彩" class="<?=$type=='分分彩' ? 'ssc_curr' : 'ssc_com'?>">香港分分彩</a>&nbsp;&nbsp;-&nbsp;&nbsp;
-			<a href="Order.php?js=0&type=澳门PK" class="<?=$type=='澳门PK' ? 'ssc_curr' : 'ssc_com'?>">澳门PK</a>&nbsp;&nbsp;-&nbsp;&nbsp;
+			<a href="Order.php?js=0&type=极速赛车" class="<?=$type=='极速赛车' ? 'ssc_curr' : 'ssc_com'?>">极速赛车</a>&nbsp;&nbsp;-&nbsp;&nbsp;
 			<a href="Order.php?js=0&type=高速六合彩" class="<?=$type=='高速六合彩' ? 'ssc_curr' : 'ssc_com'?>">高速六合彩</a>&nbsp;&nbsp;-&nbsp;&nbsp;
             <a href="Order.php?js=0&type=天津时时彩" class="<?=$type=='天津时时彩' ? 'ssc_curr' : 'ssc_com'?>">天津时时彩</a>&nbsp;&nbsp;-&nbsp;&nbsp;
             <a href="Order.php?js=0&type=新疆时时彩" class="<?=$type=='新疆时时彩' ? 'ssc_curr' : 'ssc_com'?>">新疆时时彩</a>&nbsp;&nbsp;-&nbsp;&nbsp;

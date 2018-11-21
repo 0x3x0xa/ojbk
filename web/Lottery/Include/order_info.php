@@ -286,7 +286,7 @@ function get_gameName($type) {
 		case 13 : $game='加拿大28';break;
 		case 14 : $game='新疆时时彩';break;
 		case 15 : $game='分分彩';break;
-		case 16 : $game='澳门PK';break;
+		case 16 : $game='极速赛车';break;
 	}
 	return $game;
 }

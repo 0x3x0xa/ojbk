@@ -23,7 +23,7 @@ if (isset($json['rows'])){
 		$opentime = $r['opentime'];
 		// echo "开奖期号：{$qishu}<br/>";
 		// echo "开奖号码：{$opencode}<br/>";
-		echo "开奖时间：{$opentime}<br/>";
+		// echo "开奖时间：{$opentime}<br/>";
 	}
 }else{
 	echo "采集失败，返回提示：<br/>";
