@@ -57,10 +57,10 @@ $t_day = date('Y-m-d', $lottery_time);
                 <a class="logo pk10" href="Lottery/Pk10.php"></a>
                 <span class="gm_txt">北京赛车PK10</span>
             </div>
-			<div class="col">
+			<!-- <div class="col">
                 <a class="logo pk10" href="Lottery/ampk.php"></a>
                 <span class="gm_txt">澳门PK拾</span>
-            </div>  
+            </div>  --> 
              <div class="col">
                 <a class="logo xyft" href="Lottery/Xyft.php"></a>
                 <span class="gm_txt">幸运飞艇</span>
