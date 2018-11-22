@@ -52,7 +52,7 @@ parent.topFrame.document.getElementById('grzl').style.display = 'block';
   <a href="#" class="list-group-item" data-iframe="J_GamesFrame" data-url="Lottery/Cqsf.php">重庆幸运农场<span class="fa fa-lg fa-chevron-right"></span></a>
   <a href="#" class="list-group-item" data-iframe="J_GamesFrame" data-url="Lottery/Gdsf.php">广东快乐十分<span class="fa fa-lg fa-chevron-right"></span></a>
  <a href="#" class="list-group-item" data-iframe="J_GamesFrame" data-url="Six/Six_7_3.php">香港六合彩<span class="fa fa-lg fa-chevron-right"></span></a>
-  <a href="#" class="list-group-item" data-iframe="J_GamesFrame" data-url="gsSix/Six_7_3.php">五分六合彩<span class="fa fa-lg fa-chevron-right"></span></a>
+  <a href="#" class="list-group-item" data-iframe="J_GamesFrame" data-url="gsSix/Six_7_1.php">五分六合彩<span class="fa fa-lg fa-chevron-right"></span></a>
   <a href="#" class="list-group-item" data-iframe="J_GamesFrame" data-url="Lottery/3D.php">福彩3D<span class="fa fa-lg fa-chevron-right"></span></a>
   <a href="#" class="list-group-item" data-iframe="J_GamesFrame" data-url="Lottery/Pl3.php">排列三<span class="fa fa-lg fa-chevron-right"></span></a>
  
