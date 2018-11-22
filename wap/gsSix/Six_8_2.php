@@ -53,7 +53,7 @@ $w_name[64] = '绿波';
     <div class="container-fluid gm_main">
         <div class="head">
             <a class="f_l" href="#u_nav">导航</a>
-            <span>高速六合彩</span>
+            <span>五分六合彩</span>
             <a class="f_r" href="#type">类型</a>
         </div>
         <?php include_once('../Lottery/u_nav.php') ?>

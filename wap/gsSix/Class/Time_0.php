@@ -4,14 +4,12 @@ header('Content-Type:text/html; charset=utf-8');
 include ("../../include/mysqli.php");
 include ("../include/lottery_time.php");
 
-$uid = $_SESSION['uid'];
-
-//用户输赢
-$sql = "select round(SUM(money), 2) as yk from c_bet where type='高速六合彩' and uid='$uid'";
+$uid = $_SESSION['uid'];//用户输赢
+$sql = "select round(SUM(money), 2) as yk from c_bet where type='五分六合彩' and uid='$uid'";
 $query = $mysqli->query($sql);
 $rs = $query->fetch_assoc();
 $z_money = $rs['yk'];
-$sql = "select round(SUM(win), 2) as yk from c_bet where type='高速六合彩' and uid='$uid' and win >= 0";
+$sql = "select round(SUM(win), 2) as yk from c_bet where type='五分六合彩' and uid='$uid' and win >= 0";
 $query = $mysqli->query($sql);
 $rs = $query->fetch_assoc();
 $z_win = $rs['yk'];
@@ -33,7 +31,7 @@ if($qs) {
 	$close = -1;
     $kj_time = -1;
 }
-
+ 
 //上期开奖结果
 $sql = "select qishu,ball_1,ball_2,ball_3,ball_4,ball_5,ball_6,ball_7 from c_auto_17 where ok=1 order by id desc limit 1";
 $query = $mysqli->query($sql);
@@ -47,7 +45,7 @@ $result = array(
     'kj_time' => $kj_time,
     'kj_list' => $kj_list
 );
-echo json_encode($result);
+echo json_encode($result); 
 
 /*
 数字补0函数2，当数字小于10的时候在前面自动补00，当数字大于10小于100的时候在前面自动补0

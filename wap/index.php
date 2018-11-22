@@ -98,7 +98,7 @@ $list = $rs['msg'];
     </div>
 	<div class="col">
         <a class="logo six" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(17);' : 'info();' ?>"></a>
-        <span class="gm_txt">高速六合彩</span>
+        <span class="gm_txt">五分六合彩</span>
     </div>
       <div class="col">
         <a class="logo kl8" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(8);' : 'info();' ?>"></a>
