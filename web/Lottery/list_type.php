@@ -8,7 +8,7 @@
 		<td<?=$g_t == 6 ? ' class="cur"' : ''?> width="6.69%" onclick="gm_open(7);">广东十分</td>
 		<td<?=$g_t == 5 ? ' class="cur"' : ''?> width="6.69%" onclick="gm_open(6);">幸运农场</td>
 		<td<?=$g_t == 10 ? ' class="cur"' : ''?> width="6.69%" onclick="gm_open(11);">六合彩</td>
-		<td<?=$g_t == 17 ? ' class="cur"' : ''?> width="6.69%" onclick="gm_open(17);">高速六合彩</td>
+		<td<?=$g_t == 17 ? ' class="cur"' : ''?> width="6.69%" onclick="gm_open(17);">五分六合彩</td>
         <td<?=$g_t == 1 ? ' class="cur"' : ''?> width="6.69%" onclick="gm_open(2);">天津时时彩</td>
         <td<?=$g_t == 2 ? ' class="cur"' : ''?> width="6.69%" onclick="gm_open(3);">新疆时时彩</td>
         <td<?=$g_t == 7 ? ' class="cur"' : ''?> width="6.69%" onclick="gm_open(8);">北京快乐8</td>

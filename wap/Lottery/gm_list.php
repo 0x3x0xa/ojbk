@@ -10,7 +10,7 @@
 	<tr><td><a href="/Lottery/Cqsf.php">重庆幸运农场</a> <i class="icon-angle-right"></i></td></tr>
     <tr><td><a href="/Lottery/kl8.php">北京快乐8</a> <i class="icon-angle-right"></i></td></tr>
 	<tr><td><a href="/Six/Six_7_3.php">香港六合彩</a> <i class="icon-angle-right"></i></td></tr>
-    <tr><td><a href="/gsSix/Six_7_3.php">高速六合彩</a> <i class="icon-angle-right"></i></td></tr>
+    <tr><td><a href="/gsSix/Six_7_1.php">五分六合彩</a> <i class="icon-angle-right"></i></td></tr>
     <tr><td><a href="/Lottery/3D.php">福彩3D</a> <i class="icon-angle-right"></i></td></tr>
     <tr><td><a href="/Lottery/pl3.php">排列三</a> <i class="icon-angle-right"></i></td></tr>
     <!-- <tr><td><a href="/Lottery/xy28.php">PC蛋蛋</a> <i class="icon-angle-right"></i></td></tr>

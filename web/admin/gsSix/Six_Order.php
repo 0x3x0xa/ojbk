@@ -85,7 +85,7 @@ $type=$_GET['type'];
 		  }
 	  }
  
-      $sql	=	"select id from c_bet where money>0 and type='高速六合彩'";
+      $sql	=	"select id from c_bet where money>0 and type='五分六合彩'";
 	  if($_GET["uid"]) $uid = $_GET["uid"];
 	  if($uid != '') $sql.=" and uid=".$uid;
 	  if($_GET["s_time"]) $sql.=" and addtime>='".$_GET["s_time"]." 00:00:00'";

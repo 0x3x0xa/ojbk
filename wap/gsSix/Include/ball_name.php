@@ -1,7 +1,7 @@
 <?php
 if ( $_GET['type']==0 ){
 	//香港六合彩
-	$ball_name['name']		= '高速六合彩';
+	$ball_name['name']		= '五分六合彩';
 	$ball_name['qiu_1']		= '正一';
 	$ball_name['qiu_2']		= '正二';
 	$ball_name['qiu_3']		= '正三';

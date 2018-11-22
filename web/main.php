@@ -126,10 +126,10 @@ $t_day = date('Y-m-d', $lottery_time);
 						<li<?=$type == 5 ? ' class="cur"' : ''?>><a href="javascript:void(0);" onclick="urlOnclick('Lottery/Xyft.php');" d_num="5">幸运飞艇</a></li>
 						<li<?=$type == 1 ? ' class="cur"' : ''?>><a href="javascript:void(0);" onclick="urlOnclick('Lottery/Cqssc.php');" d_num="1">重庆时时彩</a></li>
 						<li<?=$type == 7 ? ' class="cur"' : ''?>><a href="javascript:void(0);" onclick="urlOnclick('Lottery/ampk.php');" d_num="7">澳门赛车</a></li>
-						<li<?=$type == 6 ? ' class="cur"' : ''?>><a href="javascript:void(0);" onclick="urlOnclick('Lottery/ffc.php');" d_num="6">香港分分彩</a></li>
+						<li<?=$type == 6 ? ' class="cur"' : ''?>><a href="javascript:void(0);" onclick="urlOnclick('Lottery/ffc.php');" d_num="6">一分彩</a></li>
 						<li<?=$type == 11 ? ' class="cur"' : ''?>><a href="javascript:void(0);" onclick="urlOnclick('Six/Six_7_1.php');" d_num="11">香港六合彩</a></li>
 						<li <?=$type == 16 ? ' class="cur"' : ''?>><a href="javascript:void(0);" onclick="urlOnclick('Lottery/Cqsf.php');" d_num="16">幸运农场</a></li>
-						<li <?=$type == 17 ? ' class="cur"' : ''?>><a href="javascript:void(0);" onclick="urlOnclick('gsSix/Six_7_1.php');" d_num="17">高速六合彩</a></li>
+						<li <?=$type == 17 ? ' class="cur"' : ''?>><a href="javascript:void(0);" onclick="urlOnclick('gsSix/Six_7_1.php');" d_num="17">五分六合彩</a></li>
 						<!--<li<?=$type == 14 ? ' class="cur"' : ''?>><a href="javascript:void(0);" onclick="urlOnclick('sports.php');" d_num="14">体育赛事</a></li>-->
 						<li class="m_li<?=$type == 2 || $type == 3 || $type == 8 || $type == 9 || $type == 10 || $type == 12 || $type == 13 || $type == 15 || $type == 16 ? ' cur' : ''?>">
 							<span class="m_game">更多游戏 <em class="arrow"></em></span>

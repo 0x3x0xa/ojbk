@@ -91,8 +91,8 @@ $t_day = date('Y-m-d', $lottery_time);
                 <span class="gm_txt">香港六合彩</span>
             </div>
 			<div class="col">
-                <a class="logo six" href="gsSix/Six_7_3.php"></a>
-                <span class="gm_txt">高速六合彩</span>
+                <a class="logo six" href="gsSix/Six_7_1.php"></a>
+                <span class="gm_txt">五分六合彩</span>
             </div>
              <div class="col">
                 <a class="logo kl8" href="Lottery/kl8.php"></a>

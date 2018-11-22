@@ -35,7 +35,7 @@ if($qs){
 
 $uid=$_SESSION['uid'];
 if($uid!=null && $uid!=""){
-	$sql="select sum(money) as money from c_bet where uid=$uid and qishu=$qishu and type='高速六合彩' and mingxi_1='四全中'";
+	$sql="select sum(money) as money from c_bet where uid=$uid and qishu=$qishu and type='五分六合彩' and mingxi_1='四全中'";
 	$query = $mysqli->query($sql);
 	$rowm  = $query->fetch_array();
 	$money = $rowm['money'];

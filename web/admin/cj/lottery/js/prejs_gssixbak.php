@@ -25,7 +25,7 @@ function preJs($qi,$codes){
 	$zhong=0;
 	$summoney=0;
 	//根据期数读取未结算的注单
-	$sql1	= "select * from c_bet where type='高速六合彩' and js=0 and qishu=".$qi." order by addtime asc";
+	$sql1	= "select * from c_bet where type='五分六合彩' and js=0 and qishu=".$qi." order by addtime asc";
 	$query1	= $mysqli->query($sql1);
 	$sum	= $mysqli->affected_rows;
 	//var_dump($sql1);

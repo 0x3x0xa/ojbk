@@ -13,7 +13,7 @@ function digitOnly($this) {
 }
 
 function endFun() {
-    layer.msg('高速六合彩已经封盘，请留意本公司开盘公告！', {
+    layer.msg('五分六合彩已经封盘，请留意本公司开盘公告！', {
         shade: [0.5, '#fff'],
         time: 0
     });
