@@ -208,7 +208,7 @@ function auto(ball) {
             kj_qishu.html(new_qh);
             $("#open_num").html(new_hm);
             var win_parent = $(window.parent.document);
-            win_parent.find("#gm_name").html("香港分分彩");
+            win_parent.find("#gm_name").html("一分彩");
             win_parent.find("#kj_list").html(ls_kj);
             win_parent.find("#user_order").html('').hide();
             win_parent.find("#info").show();

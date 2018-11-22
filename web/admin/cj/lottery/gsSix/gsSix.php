@@ -3,7 +3,7 @@ header('Content-Type:text/html; charset=utf-8');
 require_once("../mysqli.php");
 include_once($_SERVER['DOCUMENT_ROOT']."/cache/website.php");
 include_once("./js/prejs_gssix.php");
-$lottery_time = time()-120;
+$lottery_time = time()-300;
 $sql		= "select * from c_opentime_17 where kaipan<='".date("H:i:s",$lottery_time)."' and kaijiang>='".date("H:i:s",$lottery_time)."' order by id asc";
 $query		= $mysqli->query($sql);
 $qs		= $query->fetch_array();
@@ -196,7 +196,7 @@ window.onload=beginrefresh
   <tr> 
     <td align="left">
       <input type=button name=button value="刷新" onClick="window.location.reload()">
-      高速六合彩<br><?=$txt?>&nbsp;
+      五分六合彩<br><?=$txt?>&nbsp;
       <span id="timeinfo"></span>
       </td>
   </tr>

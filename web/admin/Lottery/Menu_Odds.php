@@ -6,7 +6,7 @@
     <tr>
         <td align="center" bgcolor="#3C4D82" style="color:#FFF">
             <a href="Odds.php" class="<?=$gameId==2 ? 'ssc_curr' : 'ssc_com'?>">重庆时时彩</a>&nbsp;&nbsp;-&nbsp;&nbsp;
-			<a href="Odds.php?gameId=15" class="<?=$gameId==15 ? 'ssc_curr' : 'ssc_com'?>">香港分分彩</a>&nbsp;&nbsp;-&nbsp;&nbsp;
+			<a href="Odds.php?gameId=15" class="<?=$gameId==15 ? 'ssc_curr' : 'ssc_com'?>">一分彩</a>&nbsp;&nbsp;-&nbsp;&nbsp;
 			<a href="Odds4.php?gameId=16" class="<?=$gameId==16 ? 'ssc_curr' : 'ssc_com'?>">极速赛车</a>&nbsp;&nbsp;-&nbsp;&nbsp;
             <a href="Odds.php?gameId=7" class="<?=$gameId==7 ? 'ssc_curr' : 'ssc_com'?>">天津时时彩</a>&nbsp;&nbsp;-&nbsp;&nbsp;
             <a href="Odds.php?gameId=14" class="<?=$gameId==14 ? 'ssc_curr' : 'ssc_com'?>">新疆时时彩</a>&nbsp;&nbsp;-&nbsp;&nbsp;

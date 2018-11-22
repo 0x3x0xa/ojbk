@@ -17,7 +17,7 @@ if($_REQUEST['page'] == '') {
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>高速六合彩开奖结果</title>
+    <title>五分六合彩开奖结果</title>
     <script type="text/javascript" src="../js/jquery.js"></script>
     <link type="text/css" rel="stylesheet" href="../Lottery/css/ssc.css"/>
 </head>

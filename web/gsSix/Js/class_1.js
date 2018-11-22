@@ -11,7 +11,7 @@ function digitOnly($this) {
 }
 
 function endFun() {
-    layer.msg('高速六合彩已经封盘，请留意本公司开盘公告！', {
+    layer.msg('五分六合彩已经封盘，请留意本公司开盘公告！', {
         shade: [0.5, '#fff'],
         time: 0
     });
@@ -178,7 +178,7 @@ function history(list) {
             ls_kj += '</tr>';
         }
         var win_parent = $(window.parent.document);
-        win_parent.find("#gm_name").html("高速六合彩");
+        win_parent.find("#gm_name").html("五分六合彩");
         win_parent.find("#kj_list").html(ls_kj);
         win_parent.find("#user_order").html('').hide();
         win_parent.find("#info").show();
