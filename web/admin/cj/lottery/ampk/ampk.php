@@ -3,7 +3,7 @@ header('Content-Type:text/html; charset=utf-8');
 require_once("../mysqli.php");
 include_once($_SERVER['DOCUMENT_ROOT']."/cache/website.php");
 include_once("./js/prejs_ampk.php");
-
+set_time_limit(0) 
 date_default_timezone_set('Asia/Hong_Kong');
 $lottery_time = time();
 $sql		= "select * from c_opentime_16 where kaipan<='".date("H:i:s",$lottery_time)."' and kaijiang>='".date("H:i:s",$lottery_time)."' order by id asc";
