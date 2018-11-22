@@ -30,7 +30,7 @@ if($qs){
 	$qs		= $query->fetch_array();
 	$fixno = $web_site['ampk_knum']; //2013-06-30最后一期
 	$daynum = floor(($lottery_time-strtotime($web_site['ampk_ktime']." 00:00:00"))/3600/24);
-	$lastno = ($daynum-1)*1440 + $fixno;
+	$lastno = ($daynum-1)*720 + $fixno;
 
 	if($qs){
 		$qishu		= $lastno + $qs['qishu']-1;
