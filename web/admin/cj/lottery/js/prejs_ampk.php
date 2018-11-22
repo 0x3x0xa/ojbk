@@ -1,4 +1,6 @@
 <?php
+set_time_limit(0);
+ini_set('max_execution_time','100');
 include_once("../mysqli.php");
 include_once($_SERVER['DOCUMENT_ROOT']."/cache/website.php");
 include_once("Auto_Class4.php");
