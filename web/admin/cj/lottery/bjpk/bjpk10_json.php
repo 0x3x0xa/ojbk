@@ -10,6 +10,8 @@ require_once("../mysqli.php");
 require_once ("curl_http.php");
 $now = date('Y-m-d H:i:s');
 $src = 'http://a.apiplus.net/newly.do?token=t4808126369c757c2k&code=bjpk10&rows=1&format=json';
+//$src = 'http://f.apiplus.net/bjpk10-1.json';
+
 //防止GET本地缓存，增加随机数
 $src .= (strpos($src,'?')>0 ? '&':'?').'_='.time();
 $html = file_get_contents($src);
