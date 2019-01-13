@@ -9,8 +9,8 @@
 		<option value="/Lottery/list_gdsf.php"<?=$g_t == 6 ? ' selected="selected"' : ''?>>广东快乐十分</option>
 		<option value="/Lottery/list_gdsf.php?type=11"<?=$g_t == 5 ? ' selected="selected"' : ''?>>重庆幸运农场</option>
         <option value="/Lottery/list_kl8.php"<?=$g_t == 7 ? ' selected="selected"' : ''?>>北京快乐8</option>
-        <option value="/gsSix/Auto.php"<?=$g_t == 17 ? ' selected="selected"' : ''?>>五分六合彩</option>
-		<option value="/Six/Auto.php"<?=$g_t == 10 ? ' selected="selected"' : ''?>>香港六合彩</option>
+        <!-- <option value="/gsSix/Auto.php"<?=$g_t == 17 ? ' selected="selected"' : ''?>>五分六合彩</option>
+		<option value="/Six/Auto.php"<?=$g_t == 10 ? ' selected="selected"' : ''?>>香港六合彩</option>-->
         <option value="/Lottery/list_3D.php"<?=$g_t == 8 ? ' selected="selected"' : ''?>>福彩3D</option>
         <option value="/Lottery/list_3D.php?type=10"<?=$g_t == 9 ? ' selected="selected"' : ''?>>排列三</option>
         <!-- <option value="/Lottery/ssc_list.php?type=7"<?=$g_t == 1 ? ' selected="selected"' : ''?>>天津时时彩</option> -->

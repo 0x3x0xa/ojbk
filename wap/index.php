@@ -92,7 +92,7 @@ $list = $rs['msg'];
         <span class="gm_txt">广东快乐十分</span>
     </div> 
 	
-	<div class="col">
+	<!--<div class="col">
         <a class="logo six" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(11);' : 'info();' ?>"></a>
         <span class="gm_txt">香港六合彩</span>
     </div>
@@ -100,6 +100,7 @@ $list = $rs['msg'];
         <a class="logo six" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(17);' : 'info();' ?>"></a>
         <span class="gm_txt">五分六合彩</span>
     </div>
+    -->
       <div class="col">
         <a class="logo kl8" href="javascript:void(0);" onclick="<?= intval($uid) > 0 ? 'onUrl(8);' : 'info();' ?>"></a>
         <span class="gm_txt">北京快乐8</span>

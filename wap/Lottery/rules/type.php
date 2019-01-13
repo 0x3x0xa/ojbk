@@ -5,7 +5,7 @@
         <option value="/Lottery/rules/cqssc.php"<?=$g_t == 0 ? ' selected="selected"' : ''?>>重庆时时彩</option>
 		<option value="/Lottery/rules/klsf.php"<?=$g_t == 6 ? ' selected="selected"' : ''?>>广东快乐十分</option>
 		<option value="/Lottery/rules/cqsf.php"<?=$g_t == 5 ? ' selected="selected"' : ''?>>重庆幸运农场</option>
-		<option value="/Six/6rules.php"<?=$g_t == 10 ? ' selected="selected"' : ''?>>香港六合彩</option>
+		 <!--<option value="/Six/6rules.php"<?=$g_t == 10 ? ' selected="selected"' : ''?>>香港六合彩</option>-->
         
         <option value="/Lottery/rules/jxssc.php"<?=$g_t == 1 ? ' selected="selected"' : ''?>>天津时时彩</option>
         <option value="/Lottery/rules/xjssc.php"<?=$g_t == 2 ? ' selected="selected"' : ''?>>新疆时时彩</option>

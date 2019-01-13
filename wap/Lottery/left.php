@@ -138,7 +138,7 @@ if (!$type) $type = 1;
         
 	  <div class="menulink_<?=$type==9 ? 2 : 1?>" onclick="urlOnclick('pl3.php');"><span class="f_right" id="pl3_t">--</span>排列三</div>
         
-        <div class="menulink_<?=$type==10 ? 2 : 1?>" onclick="urlOnclick('/Six/Six_7_3.php');"><span class="f_right" id="six_t">--</span>香港六合彩</div>
+ <!--         <div class="menulink_<?=$type==10 ? 2 : 1?>" onclick="urlOnclick('/Six/Six_7_3.php');"><span class="f_right" id="six_t">--</span>香港六合彩</div>-->
         
         <div class="menulink_1" onclick="urlOnclick('gdsf.php');" style="display:none">不显示</div>
         
